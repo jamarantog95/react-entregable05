@@ -7,7 +7,7 @@ import PokeCard from '../components/Pokedex/PokeCard'
 import { useNavigate } from 'react-router-dom'
 import Pagination from '../components/Pokedex/Pagination'
 import '../components/styles/pokedex.css'
-import ErrorFetch from '../../../entregable3-gen-2/src/components/ErrorFetch'
+
 
 const Pokedex = () => {
 
