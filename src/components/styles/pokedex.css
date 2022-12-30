@@ -1,0 +1,61 @@
+.text-welcome {
+    max-width: 1201px;
+    margin: 1.5rem auto;
+}
+
+.text-welcome_name_trainner {
+    color: red;
+    font-weight: 700;
+}
+
+.text-welcome_paragraph {
+    font-weight: 400;
+}
+
+.container-searchpoke {
+    max-width: 1201px;
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+}
+
+.container-searchpoke_forminput {
+    width: 60%;
+}
+
+.container-searchpoke_inputpoke {
+    width: 77%;
+    padding: .8rem;
+    font-size: 25px;
+    border: none;
+    box-shadow: 0px 3px 6px 0px #00000026;
+    color: #211f1f;
+}
+
+.container-searchpoke_inputpoke::placeholder {
+    color: #D3D3D3;
+}
+
+.container-searchpoke_btnsearchpoke {
+    padding: .8rem;
+    width: 20%;
+    font-size: 25px;
+    background: #D93F3F;
+    color: #ffffff;
+}
+
+.container-searchpoke_optionpoke {
+    width: 40%;
+    padding: .8rem;
+    font-size: 18px;
+    color: #0F0F2D;
+}
+
+.container-poke {
+    max-width: 1201px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-items: center;
+    gap: 0.5rem;
+    margin: 3rem auto;
+}
